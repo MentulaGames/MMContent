@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/a4f18b7c-5d98-4845-81d5-20c14181d3a9.htm" />
+  <HelpTOCNode Id="cb91ef03-8d33-4fad-8986-a30610eccf94" Title="Version History" Url="html/b2efbbdc-3392-4e6b-ae57-354eb9ced447.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/70a3e29f-ad78-4a5a-abda-5af7283ffc72.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="62019fd2-ed08-4228-8cc5-d2d7ba0c7e11" Title="Mentula.Content" Url="html/a6307619-6abb-3a71-4810-055d3e6ce597.htm">
+    <HelpTOCNode Id="22b43098-1fa3-4a9b-b4af-385bb8b7c869" Title="AlternativeName Class" Url="html/513e3dc3-a18c-bd2c-d1fe-0330534c3005.htm">
+      <HelpTOCNode Title="AlternativeName Constructor " Url="html/75a5c3b4-be23-7e3c-2468-636e443f2f1a.htm" />
+      <HelpTOCNode Title="AlternativeName Properties" Url="html/c172c23a-2d2d-1d97-7e29-0dd6855d99f2.htm" />
+      <HelpTOCNode Title="AlternativeName Methods" Url="html/58674291-5d3a-2f9d-0361-e7abbe4dff9d.htm" />
+      <HelpTOCNode Id="a567b8ce-6e62-4053-8044-7fab1b1bcbed" Title="AlternativeName Fields" Url="html/04b6e4a2-4210-696a-2b1e-911036059c59.htm">
+        <HelpTOCNode Title="NewName Field" Url="html/e506c591-9922-be85-ee17-5e698f345472.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="868b8013-382e-4110-9550-f540bf9705db" Title="BuildException Class" Url="html/4e8c1987-ffc8-9bc0-0d93-d1ade1a06bc6.htm">
+      <HelpTOCNode Id="4ad99a63-f226-4817-a9d6-df7f6c8d8f83" Title="BuildException Constructor " Url="html/982c5c13-fe32-37be-e504-46d5f3489d1f.htm">
+        <HelpTOCNode Title="BuildException Constructor " Url="html/4f07335f-a82b-d95e-baa7-f7b2c94559d5.htm" />
+        <HelpTOCNode Title="BuildException Constructor (String)" Url="html/e3218b97-5cbc-84f7-46b3-711577eb433f.htm" />
+        <HelpTOCNode Title="BuildException Constructor (String, Exception)" Url="html/4284f2b3-a0c3-b94d-4416-637d308b94d1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a9c291fb-997f-472b-a289-3f7843d212dd" Title="BuildException Properties" Url="html/725de2f1-88fa-34c2-3f9d-607748fd0c30.htm">
+        <HelpTOCNode Title="StackTrace Property " Url="html/7f0ceed3-3ebe-3472-f131-e585b1dfe1b8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BuildException Methods" Url="html/89ab8c45-6b5e-40b6-1cba-739977a3acc7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b639dc18-f52e-4774-b54c-0ec095101827" Title="ContainerException Class" Url="html/97a62424-c270-3e9c-da09-b09a26dbf252.htm">
+      <HelpTOCNode Id="ac49d4b2-9ba1-435c-9ac7-19f45b460df1" Title="ContainerException Constructor " Url="html/23408f08-4ca7-c217-c506-9a6823d93cb6.htm">
+        <HelpTOCNode Title="ContainerException Constructor " Url="html/a4a7682f-8a2f-ac48-8f26-66ebed00507c.htm" />
+        <HelpTOCNode Title="ContainerException Constructor (String)" Url="html/8b1533e6-839b-4276-9738-75c7d0caa5d9.htm" />
+        <HelpTOCNode Title="ContainerException Constructor (String, Exception)" Url="html/e1e3b2ee-2640-7b85-c69f-2ead6051a91f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="805539c9-de6e-4bd3-95ea-74b489709301" Title="ContainerException Properties" Url="html/95df25a1-2484-e6ff-455f-1a56feaad39a.htm">
+        <HelpTOCNode Title="StackTrace Property " Url="html/c9ed37d7-d56d-3c46-fd83-645426d58378.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ContainerException Methods" Url="html/ce43295d-f67a-b3e3-5fb8-1f9421a56d18.htm" />
+      <HelpTOCNode Id="74836cf6-ef29-42f2-8ca3-a029d12f40b4" Title="ContainerException Fields" Url="html/de85d44a-0e93-d43f-7744-ad8a0fad5674.htm">
+        <HelpTOCNode Title="Container Field" Url="html/aa7a0e96-49cd-918a-a1ac-d50c7c45f895.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fac1821a-2c01-410c-bf18-ef1e2016adec" Title="MMEditable Class" Url="html/49f22658-abb7-6082-0dcd-95aaa32d3569.htm">
+      <HelpTOCNode Title="MMEditable Constructor " Url="html/5f7f41a3-1e1d-315f-adb4-4f57138df6d9.htm" />
+      <HelpTOCNode Title="MMEditable Properties" Url="html/7f4ae2f4-bfe2-30ee-2e49-df28baed244c.htm" />
+      <HelpTOCNode Title="MMEditable Methods" Url="html/c0d24661-00df-71f2-cd70-02277faec755.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="db1108ad-451a-4a11-9a13-cc53dfbdced9" Title="MMIgnore Class" Url="html/fe31c2bc-137c-2393-7c3c-153688501526.htm">
+      <HelpTOCNode Title="MMIgnore Constructor " Url="html/601e0987-3d6b-5071-6ffe-30d701c577e9.htm" />
+      <HelpTOCNode Title="MMIgnore Properties" Url="html/7504183b-3c4e-ceb9-10fc-3014ef7c06af.htm" />
+      <HelpTOCNode Title="MMIgnore Methods" Url="html/dec9d358-e109-7a22-2c49-5205261f1712.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="89f80462-a916-46d7-ae8a-ee2621dc2afe" Title="MMIsDefault Class" Url="html/4d48ed4f-04a1-5ce4-3647-09e11333352e.htm">
+      <HelpTOCNode Title="MMIsDefault Constructor " Url="html/6c0837e7-495a-7356-2985-1143a6586417.htm" />
+      <HelpTOCNode Title="MMIsDefault Properties" Url="html/b8a7b052-d880-d386-6507-8ede2d16a485.htm" />
+      <HelpTOCNode Title="MMIsDefault Methods" Url="html/1ca7a692-82bf-ad65-0938-a78ce33de9d2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="06fbea95-9c7f-421d-ac7e-f8e662dcc811" Title="MMIsName Class" Url="html/3b80e860-d24b-630f-9e3c-0b6bf703d2e8.htm">
+      <HelpTOCNode Title="MMIsName Constructor " Url="html/7c21c436-1fa7-a830-f0fd-3682b3f57cb9.htm" />
+      <HelpTOCNode Title="MMIsName Properties" Url="html/dc178ee8-f03d-0f06-9739-a6a78bf91fc8.htm" />
+      <HelpTOCNode Title="MMIsName Methods" Url="html/7a1ca87a-2251-7ace-6073-255344661d14.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6fdda278-749a-4e0b-b51e-35f901ffb812" Title="MMOptional Class" Url="html/8c502c58-48d4-0dad-53f1-a3a7fcbd6a4a.htm">
+      <HelpTOCNode Title="MMOptional Constructor " Url="html/61ec27d8-03a8-2499-785b-391e74a3e5fd.htm" />
+      <HelpTOCNode Title="MMOptional Properties" Url="html/252d7397-d7f2-0c8b-c079-157de2fab4d9.htm" />
+      <HelpTOCNode Title="MMOptional Methods" Url="html/799df244-398a-46c7-1203-e9d58ed72306.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b811bcdd-10e4-4583-bc36-74dc8f67c5a6" Title="ParameterException Class" Url="html/6bdc1321-b8b7-04fb-7567-2779dbe3ced0.htm">
+      <HelpTOCNode Id="31006787-ac2d-45cb-abd9-c6cd43747965" Title="ParameterException Constructor " Url="html/cdc177d7-836e-6c85-0d36-af29371cb1c3.htm">
+        <HelpTOCNode Title="ParameterException Constructor " Url="html/3c057505-21db-c9b0-1495-d6d9470e7968.htm" />
+        <HelpTOCNode Title="ParameterException Constructor (String, String, Type)" Url="html/29d19293-4906-56a1-1fe2-cfdffe088468.htm" />
+        <HelpTOCNode Title="ParameterException Constructor (String, String, Type, Exception)" Url="html/2fe8a696-6ab6-dc24-541a-9242bb637aa8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59eed425-0000-42de-937f-ddc2cdc01e86" Title="ParameterException Properties" Url="html/e41adf32-f519-cce5-c2b4-fa8a4abc2487.htm">
+        <HelpTOCNode Title="StackTrace Property " Url="html/3d5e32af-c7a1-8687-eb81-232f22319565.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ParameterException Methods" Url="html/8f93c9b9-fa63-4c4c-1681-6d633f38da21.htm" />
+      <HelpTOCNode Id="9662f8ad-c134-4d7d-b9b3-9e3f54a460d6" Title="ParameterException Fields" Url="html/0e086ad5-b6ce-0f22-aad4-a9935e8eb840.htm">
+        <HelpTOCNode Title="Parameter Field" Url="html/a255c538-824f-6ab1-e061-7c8248c59727.htm" />
+        <HelpTOCNode Title="Type Field" Url="html/cdc0e94f-49cc-7e30-4431-f9eaf0571789.htm" />
+        <HelpTOCNode Title="Value Field" Url="html/2e9ee31d-a4a8-946c-ec3a-2139b961ce64.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bcd8f546-4ae0-4031-aeda-958d22b08408" Title="ParameterNullException Class" Url="html/bd9cd0c6-00c8-a248-395a-e37a61f9c9f9.htm">
+      <HelpTOCNode Id="6a49eb62-67d6-447a-85f9-cff0bfc6e686" Title="ParameterNullException Constructor " Url="html/3c7b902f-fbb9-141c-0f9c-3079db32ebd0.htm">
+        <HelpTOCNode Title="ParameterNullException Constructor " Url="html/8615122a-cea4-dca0-ea9e-0236ccf63b9b.htm" />
+        <HelpTOCNode Title="ParameterNullException Constructor (String)" Url="html/dadcb528-8c4a-5f4a-7204-e40d50f023d1.htm" />
+        <HelpTOCNode Title="ParameterNullException Constructor (String, Exception)" Url="html/b44fa76a-771d-ca91-4ab4-d426b40f80e0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5db23bd8-f67a-4d50-922e-4b16bb8d1ba6" Title="ParameterNullException Properties" Url="html/523737dd-bc4c-f90b-9301-d8dd1740b334.htm">
+        <HelpTOCNode Title="StackTrace Property " Url="html/9956a34a-d2ec-38ea-7b6e-98f1d787966a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ParameterNullException Methods" Url="html/0a1fc480-2b51-4c31-869f-864ed3763feb.htm" />
+      <HelpTOCNode Id="aed7c36b-9d05-448c-b174-76c15e6d3f6b" Title="ParameterNullException Fields" Url="html/517ef1dc-308f-b601-f156-42e46d43033a.htm">
+        <HelpTOCNode Title="Parameter Field" Url="html/2bf19ab4-0df8-7b66-8783-5b2c128f5048.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="dd7407dd-4fbe-4f87-b4d0-48ed9ab5092c" Title="Mentula.Content.Config" Url="html/f82d7bd9-40c2-bedb-3f51-2d7e064b74ab.htm">
+    <HelpTOCNode Id="4163d488-ad9f-4b92-91a4-e7c54f0cdff2" Title="Config Class" Url="html/0fcff00c-7ff4-fbe9-8095-a5de22af9521.htm">
+      <HelpTOCNode Id="ca054ae5-5348-49d6-886a-5d7e908ee3eb" Title="Config Methods" Url="html/18c15b9b-c1ed-f57a-21ac-1d2a07ebbf5f.htm">
+        <HelpTOCNode Title="Add Method " Url="html/7b094353-6e64-f3c4-ea5a-87b2f27759e4.htm" />
+        <HelpTOCNode Title="Get(T) Method " Url="html/22d81f1f-f623-607a-e355-316c562db316.htm" />
+        <HelpTOCNode Title="GetCategories Method " Url="html/dd67a18d-8435-cd6a-87e3-b766e3b0eaa6.htm" />
+        <HelpTOCNode Title="GetClient Method " Url="html/336b7311-4dfe-b3ba-d11e-d550bbfafcb2.htm" />
+        <HelpTOCNode Title="GetKeysFromCategory Method " Url="html/5b72c9bc-87ff-7dcf-3c38-5bd424c0a62f.htm" />
+        <HelpTOCNode Title="GetVisual Method " Url="html/f521e118-8a26-91c1-8841-533827f235b6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="2d9abea6-98bf-4e3d-aba2-affa2cbf9473" Title="Mentula.Content.Core" Url="html/4708384f-8050-cbb5-7907-a4a254ad6805.htm">
+    <HelpTOCNode Id="8c03ee7c-6e99-4379-b4f9-8ed595e1e7ea" Title="Container Class" Url="html/fbcc1b8e-3604-a5f3-6f00-5804abf4eb0b.htm">
+      <HelpTOCNode Id="1ab397dd-3c34-4c86-9146-7c7faaf338e3" Title="Container Properties" Url="html/042c1f68-f5f9-a129-1280-457b21dca1bd.htm">
+        <HelpTOCNode Title="DefaultSet Property " Url="html/e04fcb1b-3c68-83ce-965e-4caa3151aad7.htm" />
+        <HelpTOCNode Title="IsUseless Property " Url="html/e6e36298-ef26-2390-1946-bb37b2ef2014.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="85e34d80-07e5-4dcd-ad99-7ab520b57085" Title="Container Methods" Url="html/37af52ea-cfd9-1952-b1aa-c400df3fdc8a.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/d026fb79-4e3d-be70-4a87-ebda86dae7ab.htm" />
+        <HelpTOCNode Title="TryGetChild Method " Url="html/14056870-ea0d-76f3-aa7d-d26c8cf81bab.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9cc6d629-b6bb-4b5d-8982-2210353772d6" Title="Container Fields" Url="html/4a4a24f8-aafd-2dec-2427-5470c4c2f064.htm">
+        <HelpTOCNode Title="Childs Field" Url="html/236c8d99-a962-9731-dcc5-fd7a019db48e.htm" />
+        <HelpTOCNode Title="DefaultValue Field" Url="html/4cc02a17-f0c7-d5d8-6af0-2e6d41299897.htm" />
+        <HelpTOCNode Title="Name Field" Url="html/2ac4b6f6-e9ff-a87d-b774-a49b26be6200.htm" />
+        <HelpTOCNode Title="Values Field" Url="html/05e90805-f32a-c142-99ca-aa07082f6c63.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e9981d7f-1a50-4030-9161-c115845fa763" Title="MentulaTypeDescriptor Class" Url="html/e524e9c3-bd40-44bc-9843-056adfbd8a5f.htm">
+      <HelpTOCNode Id="f10731c6-bb65-4781-ac45-b1ecf66a292d" Title="MentulaTypeDescriptor Methods" Url="html/4ffb733b-1bd7-d7d1-66df-7ab45cb80d19.htm">
+        <HelpTOCNode Title="AssignTypeConverter(IType, IConverterType) Method " Url="html/cfd3eb4a-6aec-af47-b193-ed520e64d71c.htm" />
+        <HelpTOCNode Title="Get(T) Method " Url="html/f5f85881-7e1b-cf84-5b96-d03917e6f2de.htm" />
+        <HelpTOCNode Title="GetFromString(T) Method " Url="html/efe34a26-9870-0d3f-6c95-16fc86865a01.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1443c43e-b91f-440b-b556-3db0e343ba0b" Title="MMSource Class" Url="html/7b8acb77-a4fe-f572-16b5-eb63e6b762fb.htm">
+      <HelpTOCNode Title="MMSource Properties" Url="html/aec8176d-df37-24f6-e51a-8f485b4ed900.htm" />
+      <HelpTOCNode Title="MMSource Methods" Url="html/a7f89978-44b3-0b10-ee38-b7bb77812826.htm" />
+      <HelpTOCNode Title="MMSource Fields" Url="html/771e1d3c-27ce-f6e8-b2ee-0df33179061d.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="8607510a-bd34-40c1-99b9-c4a769f73fbc" Title="Mentula.Content.R" Url="html/e633acbc-1835-dbf9-2c51-5573a47e929f.htm">
+    <HelpTOCNode Id="be4cf155-b818-4ad3-a1c5-13b4497f165e" Title="R Class" Url="html/d9a870b5-aa55-fd8f-0aaa-a87631db9388.htm">
+      <HelpTOCNode Title="R Properties" Url="html/f4e5e8d4-d53c-4943-6adc-d9ae8d1d5158.htm" />
+      <HelpTOCNode Id="8bd9b9b3-713f-48a8-b94d-8e9d0cdb28e1" Title="R Methods" Url="html/4241bbf8-cf63-9fb6-08a8-2cc8751167ac.htm">
+        <HelpTOCNode Title="GetTagId Method " Url="html/790c8914-be1d-7ded-3289-21d80ea6206a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="17c87840-d955-4c29-b322-f46539df6de6" Title="Mentula.Content.Reading" Url="html/64e02c1b-afbd-fdb9-c2c7-461ee8d9e273.htm">
+    <HelpTOCNode Id="21a94df5-efd2-49ff-a0b2-16f91b606b2f" Title="Utils Class" Url="html/cf6a1019-523c-2ac3-20ff-0b876a843533.htm">
+      <HelpTOCNode Id="912fab57-730f-49e3-9957-c716ff441512" Title="Utils Methods" Url="html/f11a54db-1076-db88-c339-29a26a4383dd.htm">
+        <HelpTOCNode Title="AsContainerException Method " Url="html/cb5a555a-a89a-74b8-6471-3f64dbb3f34c.htm" />
+        <HelpTOCNode Title="CheckProcessorType Method " Url="html/10bc1318-c4b8-e757-bc0d-4278d23cbbda.htm" />
+        <HelpTOCNode Title="ConvertToBool Method " Url="html/240a7e35-5d29-7c8f-9f3d-1912baa620d1.htm" />
+        <HelpTOCNode Title="ConvertToColor Method " Url="html/315f1c2b-4231-fab3-4c6a-33abdf8a440d.htm" />
+        <HelpTOCNode Title="ConvertToFloat Method " Url="html/070a4076-d119-ec4d-9be8-03f2a2d92579.htm" />
+        <HelpTOCNode Title="ConvertToInt16 Method " Url="html/78c13025-7fd9-ee0d-2613-530639293fc7.htm" />
+        <HelpTOCNode Title="ConvertToInt32 Method " Url="html/95b85d22-b98a-3ef9-cccb-86f14784578a.htm" />
+        <HelpTOCNode Title="ConvertToInt64 Method " Url="html/8e37c452-fc87-c775-6cdb-e804ed540bdf.htm" />
+        <HelpTOCNode Title="ConvertToUInt16 Method " Url="html/69e24807-9f4d-6b7f-1972-76e09f96485b.htm" />
+        <HelpTOCNode Title="ConvertToUInt32 Method " Url="html/6d90c68a-73c3-4467-3f09-80ff1bb74848.htm" />
+        <HelpTOCNode Title="ConvertToUInt64 Method " Url="html/96473d80-8af7-c127-d55c-acf1cdbbb4ab.htm" />
+        <HelpTOCNode Title="GetBoolDefault Method " Url="html/415dc92c-6d29-6070-8927-c075bb110405.htm" />
+        <HelpTOCNode Title="GetBoolValue Method " Url="html/c3510140-752a-16d9-c1c8-c47f70a9a50a.htm" />
+        <HelpTOCNode Title="GetColorDefault Method " Url="html/be4e4f07-f4d6-a965-18a8-ddb0ba90bfb3.htm" />
+        <HelpTOCNode Title="GetColorValue Method " Url="html/af0bf35e-375f-547d-ae89-cbf7d7098c51.htm" />
+        <HelpTOCNode Title="GetContainerName Method " Url="html/4270b37e-9c08-0f47-367a-3ae740290068.htm" />
+        <HelpTOCNode Title="GetFloatDefault Method " Url="html/10c1a33a-5324-508e-7bd6-22d3c0d92552.htm" />
+        <HelpTOCNode Title="GetFloatValue Method " Url="html/eeb091e7-6b22-9a9e-d955-8082b7363774.htm" />
+        <HelpTOCNode Title="GetInt16Default Method " Url="html/4e0f7ec4-6cf4-9eb0-4754-326c64ab63cd.htm" />
+        <HelpTOCNode Title="GetInt16Value Method " Url="html/284102af-383a-1aee-b1e1-92fe8ce21487.htm" />
+        <HelpTOCNode Title="GetInt32Default Method " Url="html/a1f5b508-aa88-d714-fa92-04587d5666ed.htm" />
+        <HelpTOCNode Title="GetInt32Value Method " Url="html/4984b74d-fb3b-dfc7-deb3-c44823e86dbe.htm" />
+        <HelpTOCNode Title="GetInt64Default Method " Url="html/5201336b-c3e9-a016-6102-8b83f49b63dd.htm" />
+        <HelpTOCNode Title="GetInt64Value Method " Url="html/69020189-b520-1f0f-941b-fdcf04992d3a.htm" />
+        <HelpTOCNode Title="GetStringDefault Method " Url="html/4ded398c-d017-b96f-0738-e7e7350f6d4c.htm" />
+        <HelpTOCNode Title="GetStringValue Method " Url="html/c7e56777-4c04-123e-e36c-a09f846423d5.htm" />
+        <HelpTOCNode Title="GetUInt16Default Method " Url="html/21d59de1-5491-dd20-5538-ab0555b38dc0.htm" />
+        <HelpTOCNode Title="GetUInt16Value Method " Url="html/486e9930-0f39-2b4a-9c78-3f9f6be7f1cd.htm" />
+        <HelpTOCNode Title="GetUInt32Default Method " Url="html/c207f201-b77e-6d97-b8c0-2ebedb0bad89.htm" />
+        <HelpTOCNode Title="GetUInt32Value Method " Url="html/994d74f9-46c4-3440-a391-fe6e9f424557.htm" />
+        <HelpTOCNode Title="GetUInt64Default Method " Url="html/ae195b2b-e18b-2063-1fa7-1fcb9593a797.htm" />
+        <HelpTOCNode Title="GetUInt64Value Method " Url="html/bed24c13-223a-9d15-618c-7ec1ef1a927e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
