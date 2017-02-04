@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content
+﻿namespace Mentula.BasicContent
 {
     using System;
 

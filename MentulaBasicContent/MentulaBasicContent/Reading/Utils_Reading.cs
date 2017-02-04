@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.Reading
+﻿namespace Mentula.BasicContent.Reading
 {
     using Core;
     using System;

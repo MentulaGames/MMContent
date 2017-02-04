@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.R
+﻿namespace Mentula.BasicContent.R
 {
     using System.Collections.Generic;
     using System.Diagnostics;

@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.Core
+﻿namespace Mentula.BasicContent.Core
 {
     using Collections;
     using Microsoft.Xna.Framework.Content.Pipeline;
@@ -11,7 +11,7 @@
     [System.Diagnostics.DebuggerStepThrough]
 #endif
     [ContentImporter(".mm", DefaultProcessor = "MMProcessor", DisplayName = "Mentula Importer")]
-    internal class MMImporter : ContentImporter<MMSource>
+    public class MMImporter : ContentImporter<MMSource>
     {
         private static readonly char[] validControlls = new char[]
         {

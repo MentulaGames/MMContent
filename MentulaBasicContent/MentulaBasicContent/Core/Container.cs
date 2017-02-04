@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.Core
+﻿namespace Mentula.BasicContent.Core
 {
     using System;
     using System.Collections.Generic;
@@ -42,7 +42,14 @@
             Childs = new Container[0];
         }
 
-        internal bool TryGetValue(string name, out string value)
+        /// <summary>
+        /// Tries to get a specific raw value.
+        /// </summary>
+        /// <param name="name"> The name of the raw value. </param>
+        /// <param name="value"> The string to assign the value. </param>
+        /// <returns> Whether the raw value was found. </returns>
+        [Obsolete("This method should be avoided use Utils for value loading.")]
+        public bool TryGetValue(string name, out string value)
         {
             name = name.ToUpper();
             value = Values.FirstOrDefault(v => v.Key.ToUpper() == name).Value;

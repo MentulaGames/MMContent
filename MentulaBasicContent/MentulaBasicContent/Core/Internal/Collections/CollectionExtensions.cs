@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.Core.Collections
+﻿namespace Mentula.BasicContent.Core.Collections
 {
     using System;
 

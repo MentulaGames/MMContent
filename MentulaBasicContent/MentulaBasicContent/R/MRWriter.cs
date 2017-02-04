@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.R
+﻿namespace Mentula.BasicContent.R
 {
     using Microsoft.Xna.Framework.Content.Pipeline;
     using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
@@ -68,7 +68,7 @@
 
         public override string GetRuntimeReader(TargetPlatform targetPlatform)
         {
-            return "Mentula.Content.R.MRReader, MentulaBasicContent, Version=1.0.0.0, Culture=neutral";
+            return "Mentula.BasicContent.R.MRReader, MentulaBasicContent, Version=1.0.0.0, Culture=neutral";
         }
     }
 }

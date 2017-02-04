@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.Core
+﻿namespace Mentula.BasicContent.Core
 {
     using Collections;
     using Microsoft.Xna.Framework.Content.Pipeline;
@@ -14,7 +14,7 @@
 #if !DEBUG
     [System.Diagnostics.DebuggerStepThrough]
 #endif
-    public class MMSource : Container
+    public sealed class MMSource : Container
     {
         private Stack<Container> cntStack;
 

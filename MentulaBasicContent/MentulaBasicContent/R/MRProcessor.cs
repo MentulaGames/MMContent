@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.R
+﻿namespace Mentula.BasicContent.R
 {
     using Core;
     using Microsoft.Xna.Framework.Content.Pipeline;
@@ -10,7 +10,7 @@
     [System.Diagnostics.DebuggerStepThrough]
 #endif
     [ContentProcessor(DisplayName = "Mentula R Processor")]
-    internal sealed class MRProcessor : ContentProcessor<MMSource, R>
+    public sealed class MRProcessor : ContentProcessor<MMSource, R>
     {
         public override R Process(MMSource input, ContentProcessorContext context)
         {

@@ -37,6 +37,14 @@
   <HelpKINode Title="Config.GetClient method" Url="html/336b7311-4dfe-b3ba-d11e-d550bbfafcb2.htm" />
   <HelpKINode Title="Config.GetKeysFromCategory method" Url="html/5b72c9bc-87ff-7dcf-3c38-5bd424c0a62f.htm" />
   <HelpKINode Title="Config.GetVisual method" Url="html/f521e118-8a26-91c1-8841-533827f235b6.htm" />
+  <HelpKINode Title="ConfigLoader class">
+    <HelpKINode Title="ConfigLoader Class" Url="html/4f80e466-c1c9-480f-31be-5205e90c7946.htm" />
+    <HelpKINode Title="about ConfigLoader class" Url="html/4f80e466-c1c9-480f-31be-5205e90c7946.htm" />
+    <HelpKINode Title="methods" Url="html/ebc0cab9-dc7b-6bee-f527-563bf644533d.htm" />
+    <HelpKINode Title="properties" Url="html/b2f9f5b8-c069-1044-da0a-5520ad678d46.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfigLoader.LastError property" Url="html/c86dac5c-f27a-ad68-aaf1-708822e388a5.htm" />
+  <HelpKINode Title="ConfigLoader.Load method" Url="html/1f9571d1-0d6f-48ab-4713-a482eda6667b.htm" />
   <HelpKINode Title="Container class">
     <HelpKINode Title="Container Class" Url="html/fbcc1b8e-3604-a5f3-6f00-5804abf4eb0b.htm" />
     <HelpKINode Title="about Container class" Url="html/fbcc1b8e-3604-a5f3-6f00-5804abf4eb0b.htm" />
@@ -52,6 +60,7 @@
   <HelpKINode Title="Container.Name field" Url="html/2ac4b6f6-e9ff-a87d-b774-a49b26be6200.htm" />
   <HelpKINode Title="Container.ToString method" Url="html/d026fb79-4e3d-be70-4a87-ebda86dae7ab.htm" />
   <HelpKINode Title="Container.TryGetChild method" Url="html/14056870-ea0d-76f3-aa7d-d26c8cf81bab.htm" />
+  <HelpKINode Title="Container.TryGetValue method" Url="html/e8d0a8eb-8bcf-428e-7b12-545a547d75c0.htm" />
   <HelpKINode Title="Container.Values field" Url="html/05e90805-f32a-c142-99ca-aa07082f6c63.htm" />
   <HelpKINode Title="ContainerException class">
     <HelpKINode Title="ContainerException Class" Url="html/97a62424-c270-3e9c-da09-b09a26dbf252.htm" />
@@ -112,16 +121,22 @@
   <HelpKINode Title="GetUInt64Value method" Url="html/bed24c13-223a-9d15-618c-7ec1ef1a927e.htm" />
   <HelpKINode Title="GetVisual method" Url="html/f521e118-8a26-91c1-8841-533827f235b6.htm" />
   <HelpKINode Title="IsUseless property" Url="html/e6e36298-ef26-2390-1946-bb37b2ef2014.htm" />
+  <HelpKINode Title="LastError property" Url="html/c86dac5c-f27a-ad68-aaf1-708822e388a5.htm" />
+  <HelpKINode Title="Load method" Url="html/1f9571d1-0d6f-48ab-4713-a482eda6667b.htm" />
+  <HelpKINode Title="Log delegate" Url="html/94ecebf3-630d-b401-6dae-61ef3bb3ab38.htm" />
   <HelpKINode Title="Mentula.Content namespace" Url="html/a6307619-6abb-3a71-4810-055d3e6ce597.htm" />
   <HelpKINode Title="Mentula.Content.AlternativeName class" Url="html/513e3dc3-a18c-bd2c-d1fe-0330534c3005.htm" />
   <HelpKINode Title="Mentula.Content.BuildException class" Url="html/4e8c1987-ffc8-9bc0-0d93-d1ade1a06bc6.htm" />
   <HelpKINode Title="Mentula.Content.Config namespace" Url="html/f82d7bd9-40c2-bedb-3f51-2d7e064b74ab.htm" />
   <HelpKINode Title="Mentula.Content.Config.Config class" Url="html/0fcff00c-7ff4-fbe9-8095-a5de22af9521.htm" />
+  <HelpKINode Title="Mentula.Content.Config.ConfigLoader class" Url="html/4f80e466-c1c9-480f-31be-5205e90c7946.htm" />
   <HelpKINode Title="Mentula.Content.ContainerException class" Url="html/97a62424-c270-3e9c-da09-b09a26dbf252.htm" />
   <HelpKINode Title="Mentula.Content.Core namespace" Url="html/4708384f-8050-cbb5-7907-a4a254ad6805.htm" />
   <HelpKINode Title="Mentula.Content.Core.Container class" Url="html/fbcc1b8e-3604-a5f3-6f00-5804abf4eb0b.htm" />
   <HelpKINode Title="Mentula.Content.Core.MentulaTypeDescriptor class" Url="html/e524e9c3-bd40-44bc-9843-056adfbd8a5f.htm" />
   <HelpKINode Title="Mentula.Content.Core.MMSource class" Url="html/7b8acb77-a4fe-f572-16b5-eb63e6b762fb.htm" />
+  <HelpKINode Title="Mentula.Content.Core.Runtime namespace" Url="html/242290ab-f401-8eba-dad9-88a5ce30ba10.htm" />
+  <HelpKINode Title="Mentula.Content.Core.Runtime.Log delegate" Url="html/94ecebf3-630d-b401-6dae-61ef3bb3ab38.htm" />
   <HelpKINode Title="Mentula.Content.MMEditable class" Url="html/49f22658-abb7-6082-0dcd-95aaa32d3569.htm" />
   <HelpKINode Title="Mentula.Content.MMIgnore class" Url="html/fe31c2bc-137c-2393-7c3c-153688501526.htm" />
   <HelpKINode Title="Mentula.Content.MMIsDefault class" Url="html/4d48ed4f-04a1-5ce4-3647-09e11333352e.htm" />
@@ -236,6 +251,7 @@
   </HelpKINode>
   <HelpKINode Title="ToString method" Url="html/d026fb79-4e3d-be70-4a87-ebda86dae7ab.htm" />
   <HelpKINode Title="TryGetChild method" Url="html/14056870-ea0d-76f3-aa7d-d26c8cf81bab.htm" />
+  <HelpKINode Title="TryGetValue method" Url="html/e8d0a8eb-8bcf-428e-7b12-545a547d75c0.htm" />
   <HelpKINode Title="Type field" Url="html/cdc0e94f-49cc-7e30-4431-f9eaf0571789.htm" />
   <HelpKINode Title="Utils class">
     <HelpKINode Title="Utils Class" Url="html/cf6a1019-523c-2ac3-20ff-0b876a843533.htm" />

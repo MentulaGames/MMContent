@@ -1,4 +1,4 @@
-﻿namespace Mentula.Content.Core
+﻿namespace Mentula.BasicContent.Core
 {
     using Microsoft.Xna.Framework;
     using System;
