@@ -1,7 +1,18 @@
-﻿namespace Mentula.BasicContent.R
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.R
 {
-    using Microsoft.Xna.Framework.Content.Pipeline;
-    using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
+#if MONO
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline;
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
+#else
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline;
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
+#endif
     using System.Collections.Generic;
     using System.Linq;
 

@@ -1,7 +1,17 @@
-﻿namespace Mentula.BasicContent.Core
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.Core
 {
+#if MONO
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline;
+#else
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline;
+#endif
     using Collections;
-    using Microsoft.Xna.Framework.Content.Pipeline;
     using System;
     using System.Collections.Generic;
     using System.Runtime.CompilerServices;

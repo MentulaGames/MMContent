@@ -38,10 +38,11 @@
     <CleanIntermediates>True</CleanIntermediates>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="Mentula.Content" isDocumented="True">The Mentula.Content namespace contains global functions to be used with MentulaBasicContent</NamespaceSummaryItem>
-<NamespaceSummaryItem name="Mentula.Content.Core" isDocumented="True">The Mentula.Content.Core namespace contains fundamental classes and base classes that define commonly-used interface items.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="Mentula.Content.Config" isDocumented="True">The Mentula.Content.Config namespace contains the Config class.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="Mentula.Content.R" isDocumented="True">The Mentula.Content.R namespace contains the R class.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="Mentula.Content.Reading" isDocumented="True">The Mentula.Content.Reading namespace contains functions for the reading and processing of container attributes.</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="Mentula.Content.Core" isDocumented="True">The Mentula.Content.Core namespace contains fundamental classes and base classes that define commonly-used interface items.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="Mentula.Content.Config" isDocumented="True">The Mentula.Content.Config namespace contains the Config class.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="Mentula.Content.R" isDocumented="True">The Mentula.Content.R namespace contains the R class.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="Mentula.Content.Reading" isDocumented="True">The Mentula.Content.Reading namespace contains functions for the reading and processing of container attributes.</NamespaceSummaryItem>
+    </NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
@@ -88,5 +89,8 @@
     <PostBuildEvent>
     </PostBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'MonoRelease' ">
+    <OutputPath>bin\MonoRelease\</OutputPath>
   </PropertyGroup>
 </Project>

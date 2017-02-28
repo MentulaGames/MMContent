@@ -1,6 +1,16 @@
-﻿namespace Mentula.BasicContent.Core.Runtime
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.Core.Runtime
 {
-    using Microsoft.Xna.Framework.Content.Pipeline;
+#if MONO
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline;
+#else
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline;
+#endif
     using System.Runtime.CompilerServices;
 
     /// <summary>

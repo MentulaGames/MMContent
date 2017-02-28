@@ -1,6 +1,16 @@
-﻿namespace Mentula.BasicContent.Core
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.Core
 {
-    using Microsoft.Xna.Framework;
+#if MONO
+    using Mono.Microsoft.Xna.Framework;
+#else
+    using Xna.Microsoft.Xna.Framework;
+#endif
     using System;
     using System.ComponentModel;
 

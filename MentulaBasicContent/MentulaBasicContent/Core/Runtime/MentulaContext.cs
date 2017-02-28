@@ -1,7 +1,17 @@
-﻿namespace Mentula.BasicContent.Core.Runtime
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.Core.Runtime
 {
+#if MONO
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline;
+#else
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline;
+#endif
     using System;
-    using Microsoft.Xna.Framework.Content.Pipeline;
 
     internal sealed class MentulaContext : ContentImporterContext
     {

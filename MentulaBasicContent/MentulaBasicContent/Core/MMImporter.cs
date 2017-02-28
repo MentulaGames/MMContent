@@ -1,12 +1,25 @@
-﻿namespace Mentula.BasicContent.Core
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.Core
 {
+#if MONO
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline;
+#else
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline;
+#endif
     using Collections;
-    using Microsoft.Xna.Framework.Content.Pipeline;
     using System;
     using System.IO;
     using System.Runtime.CompilerServices;
     using System.Text;
 
+    /// <summary>
+    /// The default importer for mentula material (.mm) files.
+    /// </summary>
 #if !DEBUG
     [System.Diagnostics.DebuggerStepThrough]
 #endif
@@ -20,6 +33,12 @@
             '\r'
         };
 
+        /// <summary>
+        /// Imports the specified file as a .mm file.
+        /// </summary>
+        /// <param name="filename"> The absolute path to the file. </param>
+        /// <param name="context"> The specified context for importing. </param>
+        /// <returns></returns>
         public override MMSource Import(string filename, ContentImporterContext context)
         {
             context.Logger.PushFile(filename);

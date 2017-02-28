@@ -1,17 +1,36 @@
-﻿namespace Mentula.BasicContent.R
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.R
 {
+#if MONO
+    using Mono.Microsoft.Xna.Framework.Content.Pipeline;
+#else
+    using Xna.Microsoft.Xna.Framework.Content.Pipeline;
+#endif
     using Core;
-    using Microsoft.Xna.Framework.Content.Pipeline;
     using Reading;
     using System;
     using System.Collections.Generic;
 
+    /// <summary>
+    /// The content processor used to process the mentula .R file extension
+    /// </summary>
 #if !DEBUG
     [System.Diagnostics.DebuggerStepThrough]
 #endif
     [ContentProcessor(DisplayName = "Mentula R Processor")]
     public sealed class MRProcessor : ContentProcessor<MMSource, R>
     {
+        /// <summary>
+        /// Creates a new instance of the <see cref="R"/> class from the <see cref="MMSource"/> input.
+        /// </summary>
+        /// <param name="input"> The specified input. </param>
+        /// <param name="context"> The specified context for loading. </param>
+        /// <returns> A new instance of the <see cref="R"/> class. </returns>
         public override R Process(MMSource input, ContentProcessorContext context)
         {
             Utils.CheckProcessorType("R", input);

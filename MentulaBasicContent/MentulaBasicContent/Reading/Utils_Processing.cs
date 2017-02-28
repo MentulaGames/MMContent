@@ -1,7 +1,17 @@
-﻿namespace Mentula.BasicContent.Reading
+﻿#if MONO
+extern alias Mono;
+#else
+extern alias Xna;
+#endif
+
+namespace Mentula.BasicContent.Reading
 {
+#if MONO
+    using Mono.Microsoft.Xna.Framework;
+#else
+    using Xna.Microsoft.Xna.Framework;
+#endif
     using Core;
-    using Microsoft.Xna.Framework;
 
     public static partial class Utils
     {
